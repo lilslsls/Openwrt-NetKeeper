@@ -11,8 +11,8 @@ uci set network.netkeeper.proto=pppoe
 #TODO:set your province's plugin name
 uci set network.netkeeper.pppd_options='plugin chongqing_sxplugin.so'
 #TODO:set pppoe account and password
-uci set network.netkeeper.username=username
-uci set network.netkeeper.password=password
+uci set network.netkeeper.userame=1645118@cqupt
+uci set network.netkeeper.assword=087572
 uci set network.netkeeper.metric='0'
 uci commit network
 #set firewall                                    
